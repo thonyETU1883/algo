@@ -1,0 +1,5 @@
+1:256.58.204.46?www.google.com,ww.canvas.com
+2:31.13.92.36?www.facebook.com,www.twitter.com
+3:216.58.204.46?ww.youtube.com,www.cartoon.com
+4:104.244.42.193?www.twitter.com,www.alibaba.com
+5:176.32.103.205?www.amazon.com,www.kfc.com

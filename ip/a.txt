@@ -1,0 +1,20 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# Exemple de graphe
+G = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+
+# Créer un graphe à partir du dictionnaire
+graph = nx.Graph(G)
+
+# Tracer le graphe
+pos = nx.spring_layout(graph)
+nx.draw_networkx(graph, pos, with_labels=True)
+plt.show()
